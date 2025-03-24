@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.axis-grid line {
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+  }
+  
+  .stick-path {
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+  }
+  
+  .deadzone-circle {
+    fill: none;
+    stroke: #ef4444;
+    stroke-width: 2;
+    stroke-dasharray: 4;
+  }
